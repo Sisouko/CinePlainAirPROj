@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CinemaFes</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="LandStyle.css">
+</head>
+<body>
+<script src="Lgg.js"></script>
+<!-- ═══ NAVBAR ═══ -->
+<nav class="navbar">
+  <div class="logo">CinePlain<span>Air</span></div>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">TV shows</a></li>
+    <li><a href="#">Movies</a></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">contact us</a></li>
+    <li><a href="#">Local</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-search">🔍</div>
+    <div class="nav-avatar">
+      <img src="AST/download.jpg" alt="user"/>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<div class="hero">
+  <div class="hero-img"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Parc des Lumières Avenue du Cinéma <em>.Paris</em></div>
+    <h1>Where Every <em>Frame</em><br/>Tells a Story</h1>
+    <p class="hero-desc">Discover movies, series, and award-winning originals from every corner of the world.</p>
+    <div class="hero-badge-row">
+      <span class="hbadge action">Action</span>
+      <span class="hbadge fantasy">Fantasy</span>
+      <span class="hbadge drama">Drama</span>
+    </div>
+    <br/>
+    <div class="hero-btns">
+      <button class="btn-primary">
+        <span class="play-btn"></span>
+        Watch Now
+      </button>
+      <button class="btn-outline">+ Add to List</button>
+    </div>
+    <div class="hero-meta">
+      <span class="star">★★★★</span>
+      <span>8.2 / 10</span>
+      <span class="sep">|</span>
+      <span>2023</span>
+      <span class="sep">|</span>
+      <span>3 Seasons</span>
+      <span class="sep">|</span>
+      <span>HD</span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ TREND SERIES ═══ -->
+<section class="sec">
+  <div class="sec-head">
+    <span class="sec-title">Trend TV show</span>
+    <a class="sec-link" href="#">See All →</a>
+  </div>
+  <div class="genre-pills">
+    <span class="gpill pink active">All</span>
+    <span class="gpill blue">Action</span>
+    <span class="gpill purple">Sci-Fi</span>
+    <span class="gpill green">Fantasy</span>
+    <span class="gpill orange">Psychological</span>
+    <span class="gpill cyan">Anime</span>
+    <span class="gpill ghost">Drama</span>
+  </div>
+  <div class="hscroll">
+    <div class="t-card">
+      <img src="AST/stranger-things.jpg" alt=""/>
+      <span class="t-rank">#1</span>
+      <span class="t-card-tag hot">HOT</span>
+      <div class="t-card-overlay"><div class="t-card-name">Stranger Things</div><div class="t-card-sub">Sci-Fi · Horror</div></div>
+    </div>
+    <div class="t-card">
+      <img src="AST/dark.jpg" alt=""/>
+      <span class="t-rank">#2</span>
+      <div class="t-card-overlay"><div class="t-card-name">Dark</div><div class="t-card-sub">Thriller · Mystery</div></div>
+    </div>
+    <div class="t-card">
+      <img src="AST/squid-game.jpg" alt=""/>
+      <span class="t-rank">#3</span>
+      <span class="t-card-tag new">NEW</span>
+      <div class="t-card-overlay"><div class="t-card-name">Squid Game</div><div class="t-card-sub">Drama · Survival</div></div>
+    </div>
+    <div class="t-card">
+      <img src="AST/cyberpunk.jpg" alt=""/>
+      <span class="t-rank">#4</span>
+      <div class="t-card-overlay"><div class="t-card-name">Cyberpunk 2077</div><div class="t-card-sub">Anime · Action</div></div>
+    </div>
+    <div class="t-card">
+      <img src="AST/Bridgerton2.jpg" alt=""/>
+      <span class="t-rank">#5</span>
+      <div class="t-card-overlay"><div class="t-card-name">Bridgerton</div><div class="t-card-sub">Romance · Drama</div></div>
+    </div>
+    <div class="t-card">
+      <img src="AST/ozark.jpg" alt=""/>
+      <span class="t-rank">#6</span>
+      <div class="t-card-overlay"><div class="t-card-name">Ozark</div><div class="t-card-sub">Crime · Thriller</div></div>
+    </div>
+    <div class="t-card">
+      <img src="AST/warrior-nun.jpg" alt=""/>
+      <span class="t-rank">#7</span>
+      <div class="t-card-overlay"><div class="t-card-name">Warrior Nun</div><div class="t-card-sub">Action · Fantasy</div></div>
+    </div>
+    <div class="t-card">
+      <img src="AST/La casa de papel.jpg" alt=""/>
+      <span class="t-rank">#8</span>
+      <span class="t-card-tag hot">HOT</span>
+      <div class="t-card-overlay"><div class="t-card-name">Money Heist</div><div class="t-card-sub">Crime · Action</div></div>
+    </div>
+    <div class="t-card">
+      <img src="AST/wednesday.jpg" alt=""/>
+      <span class="t-rank">#9</span>
+      <div class="t-card-overlay"><div class="t-card-name">Wednesday</div><div class="t-card-sub">Horror · Comedy</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ GOLDEN GLOBE BANNER ═══ -->
+<div class="gg-banner">
+  <div class="gg-left">
+    <div class="gg-label">🏆 Golden Globe BEST OF ALL TIME</div>
+    <div class="gg-tags">
+      <span class="gg-tag">Best TV show</span>
+      <span class="gg-tag">Best Actor</span>
+      <span class="gg-tag">Best best of all time</span>
+      <span class="gg-tag">Best Director</span>
+    </div>
+  </div>
+  <div class="gg-right">
+    <div>
+      <div class="gg-title">
+        GOLDEN<br/>GLOBE
+        <small>AWARDS</small>
+      </div>
+    </div>
+    <div class="gg-divider"></div>
+    <div>
+      <div style="font-family:'Montserrat',sans-serif;font-size:2.6rem;font-weight:900;color:var(--gold);line-height:1;text-shadow:0 0 30px rgba(245,197,24,.4)">81<sup style="font-size:1rem">st</sup></div>
+      <div style="font-size:.62rem;color:rgba(245,197,24,.6);font-weight:700;letter-spacing:1.5px;margin-top:4px;">CEREMONY</div>
+    </div>
+    <div class="gg-imgs">
+      <img src="AST/the rain actor.jpg" alt=""/>
+      <img src="AST/the crown actor.jpg" alt=""/>
+      <img src="AST/squide game actor.jpg" alt=""/>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SERIES SECTION ═══ -->
+<section class="sec">
+  <div class="sec-head">
+    <span class="sec-title">Series</span>
+    <a class="sec-link" href="#">See All →</a>
+  </div>
+  <div class="hscroll">
+    <div class="s-card">
+      <img src="AST/the-witcher-5d1a369dca5c1.jpg" alt=""/>
+      <span class="s-new">Hot</span>
+      <div class="s-card-info"><div class="s-card-title">The Witcher</div><div class="s-card-meta">★ 8.2 · Fantasy</div></div>
+      <div class="s-card-bar"><div class="s-card-bar-fill" style="width:72%"></div></div>
+    </div>
+    <div class="s-card">
+      <img src="AST/dark.jpg" alt=""/>
+      <div class="s-card-info"><div class="s-card-title">Dark</div><div class="s-card-meta">★ 8.8 · Sci-Fi</div></div>
+      <div class="s-card-bar"><div class="s-card-bar-fill" style="width:88%"></div></div>
+    </div>
+    <div class="s-card">
+      <img src="AST/Lupin.jpg" alt=""/>
+      <div class="s-card-info"><div class="s-card-title">Lupin</div><div class="s-card-meta">★ 7.5 · Crime</div></div>
+      <div class="s-card-bar"><div class="s-card-bar-fill" style="width:60%"></div></div>
+    </div>
+    <div class="s-card">
+      <img src="AST/the-rain.jpg" alt=""/>
+      <div class="s-card-info"><div class="s-card-title">The Rain</div><div class="s-card-meta">★ 6.9 · Post-Apoc</div></div>
+      <div class="s-card-bar"><div class="s-card-bar-fill" style="width:44%"></div></div>
+    </div>
+    <div class="s-card">
+      <img src="AST/warrior-nun.jpg" alt=""/>
+      <span class="s-new">NEW</span>
+      <div class="s-card-info"><div class="s-card-title">Warrior Nun</div><div class="s-card-meta">★ 7.1 · Action</div></div>
+      <div class="s-card-bar"><div class="s-card-bar-fill" style="width:55%"></div></div>
+    </div>
+    <div class="s-card">
+      <img src="AST/the-crown.jpg" alt=""/>
+      <div class="s-card-info"><div class="s-card-title">The Crown</div><div class="s-card-meta">★ 8.1 · Historical</div></div>
+      <div class="s-card-bar"><div class="s-card-bar-fill" style="width:81%"></div></div>
+    </div>
+    <div class="s-card">
+      <img src="AST/bridgerton.jpg" alt=""/>
+      <div class="s-card-info"><div class="s-card-title">Bridgerton</div><div class="s-card-meta">★ 7.3 · Romance</div></div>
+      <div class="s-card-bar"><div class="s-card-bar-fill" style="width:50%"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ MAP ═══ -->
+<div class="map-sec">
+  <div class="sec-head" style="margin-bottom:16px">
+    <span class="sec-title">Filming Locations</span>
+    <a class="sec-link" href="#">Explore Map →</a>
+  </div>
+  <div class="map-box">
+    <div class="map-glow"></div>
+    <!-- Inline SVG roads -->
+    <svg class="map-svg" viewBox="0 0 900 300" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 160 Q150 130 280 155 T550 145 T900 160" stroke="#1e2a50" stroke-width="10" fill="none"/>
+      <path d="M0 200 Q200 175 400 195 T700 185 T900 200" stroke="#1e2a50" stroke-width="6" fill="none"/>
+      <path d="M230 0 Q255 80 270 300" stroke="#1e2a50" stroke-width="7" fill="none"/>
+      <path d="M480 0 Q495 80 500 300" stroke="#1e2a50" stroke-width="5" fill="none"/>
+      <path d="M700 0 Q710 100 720 300" stroke="#1e2a50" stroke-width="5" fill="none"/>
+      <!-- route line pink -->
+      <path d="M180 150 Q300 120 420 148 T640 140" stroke="rgba(232,24,109,.35)" stroke-width="2" fill="none" stroke-dasharray="6,5"/>
+    </svg>
+    <!-- Pins -->
+    <div class="mp" style="left:20%;top:30%">
+      <div class="mp-bubble">12th ARR, Paris</div>
+      <div class="mp-stem"></div>
+      <div class="mp-dot"></div>
+    </div>
+    <div class="mp" style="left:35%;top:48%">
+      <div class="mp-bubble">Parc Floral de Paris</div>
+      <div class="mp-stem"></div>
+      <div class="mp-dot b"></div>
+    </div>
+    <div class="mp" style="left:50%;top:34%">
+      <div class="mp-bubble">Bois de Vincennes</div>
+      <div class="mp-stem"></div>
+      <div class="mp-dot"></div>
+    </div>
+    <div class="mp" style="left:65%;top:52%">
+      <div class="mp-bubble">Jarvis-en-Point</div>
+      <div class="mp-stem"></div>
+      <div class="mp-dot b"></div>
+    </div>
+    <div class="mp" style="left:78%;top:38%">
+      <div class="mp-bubble">Seine Valley</div>
+      <div class="mp-stem"></div>
+      <div class="mp-dot"></div>
+    </div>
+    <div class="map-labels">
+      <div class="map-lbl"><span style="color:var(--pink);font-size:.5rem">●</span> Filming Site</div>
+      <div class="map-lbl"><span style="color:var(--blue);font-size:.5rem">●</span> Location Scout</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ CHARACTERS ═══ -->
+<section class="sec">
+  <div class="sec-head">
+    <span class="sec-title">Characters</span>
+    <a class="sec-link" href="#">Full Cast →</a>
+  </div>
+  <div class="hscroll" style="gap:18px;scrollbar-width:none">
+    <div class="ch-card">
+      <div class="ch-ring"><div class="ch-inner"><img src="AST/Henry Cavill.jpg" alt=""/></div></div>
+      <div class="ch-name">Henry Cavill</div><div class="ch-bof">The Witcher</div>
+    </div>
+    <div class="ch-card">
+      <div class="ch-ring"><div class="ch-inner"><img src="AST/Jenna Ortega.jpg" alt=""/></div></div>
+      <div class="ch-name">Jenna Ortega</div><div class="ch-bof">Wednesday</div>
+    </div>
+    <div class="ch-card">
+      <div class="ch-ring"><div class="ch-inner"><img src="AST/squide game actor.jpg" alt=""/></div></div>
+      <div class="ch-name">Lee Jung-jae</div><div class="ch-bof">Squide game</div>
+    </div>
+    <div class="ch-card">
+      <div class="ch-ring"><div class="ch-inner"><img src="AST/Dark actor.jpg" alt="AST/Dark actor.jpg"/></div></div>
+      <div class="ch-name">Louis Hofmann</div><div class="ch-bof">Dark</div>
+    </div>
+    <div class="ch-card">
+      <div class="ch-ring"><div class="ch-inner"><img src="AST/Ozark actor.jpg" alt=""/></div></div>
+      <div class="ch-name">Julia Garner</div><div class="ch-bof">Ozark</div>
+    </div>
+    <div class="ch-card">
+      <div class="ch-ring"><div class="ch-inner"><img src="AST/La casa actor.jpg" alt=""/></div></div>
+      <div class="ch-name">Álvaro Morte</div><div class="ch-bof">Money Heist</div>
+    </div>
+    <div class="ch-card">
+      <div class="ch-ring"><div class="ch-inner"><img src="AST/Lupin actor.jpg" alt=""/></div></div>
+      <div class="ch-name">Omar Sy</div><div class="ch-bof">Lupin</div>
+    </div>
+    <div class="ch-card">
+      <div class="ch-ring"><div class="ch-inner"><img src="AST/the rain actor.jpg" alt=""/></div></div>
+      <div class="ch-name">Alba August</div><div class="ch-bof">The Rain</div>
+    </div>
+    <div class="ch-card">
+      <div class="ch-ring"><div class="ch-inner"><img src="AST/the crown actor.jpg" alt=""/></div></div>
+      <div class="ch-name">Claire Foy</div><div class="ch-bof">The Crow</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FAMILY SECTION ═══ -->
+<div class="fam-sec">
+  <div class="fam-left">
+    <h2>Family Friendly<br/>Streaming</h2>
+    <p>A safe and magical space for the whole family. Discover thousands of kids' shows, animated movies, and family adventures — completely ad-free, any time.</p>
+    <button class="btn-fam">Explore Kids' Section →</button>
+  </div>
+  <div class="fam-right">
+    <div class="fam-poster">
+      <img src="AST/kids f1.jpg" alt=""/>
+    </div>
+    <div class="fam-poster">
+      <img src="AST/kids f2.jpg" alt=""/>
+    </div>
+    <div class="fam-poster">
+      <img src="AST/kid f3.jpg" alt=""/>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ FAQ ═══ -->
+<div class="faq-sec">
+  <div class="faq-heading">Frequently Asked <span>Questions</span></div>
+
+  <div class="fi open">
+    <div class="fi-q" onclick="toggleFi(this)">
+      What is CinemaFes and how does it work?
+      <span class="fi-icon">+</span>
+    </div>
+    <div class="fi-a">CinemaFes is a subscription-based streaming platform that lets you watch movies, series, documentaries, and exclusive originals on any connected device — no ads, no contracts, just great content.</div>
+  </div>
+  <div class="fi">
+    <div class="fi-q" onclick="toggleFi(this)">
+      How much does a subscription cost?
+      <span class="fi-icon">+</span>
+    </div>
+    <div class="fi-a">Plans start from $8.99/month. Choose from Basic, Standard, or Premium depending on screens and video quality. All plans include unlimited access with no hidden fees.</div>
+  </div>
+  <div class="fi">
+    <div class="fi-q" onclick="toggleFi(this)">
+      On which devices can I watch CinemaFes?
+      <span class="fi-icon">+</span>
+    </div>
+    <div class="fi-a">Watch on Smart TVs, phones, tablets, laptops, gaming consoles, and streaming sticks. Your account works on up to 4 devices simultaneously on the Premium plan.</div>
+  </div>
+  <div class="fi">
+    <div class="fi-q" onclick="toggleFi(this)">
+      Can I download content for offline viewing?
+      <span class="fi-icon">+</span>
+    </div>
+    <div class="fi-a">Yes! Download your favorite movies and series to watch offline on mobile and tablet devices. Downloads are available on Standard and Premium plans.</div>
+  </div>
+  <div class="fi">
+    <div class="fi-q" onclick="toggleFi(this)">
+      Is there a free trial available?
+      <span class="fi-icon">+</span>
+    </div>
+    <div class="fi-a">New members get a 30-day free trial with full access to all content. Cancel anytime before the trial ends and you won't be charged.</div>
+  </div>
+  <div class="fi">
+    <div class="fi-q" onclick="toggleFi(this)">
+      How do I cancel my subscription?
+      <span class="fi-icon">+</span>
+    </div>
+    <div class="fi-a">Cancel anytime from your account settings — no fees, no hoops to jump through. If you cancel, you'll still have access until the end of your billing period.</div>
+  </div>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="foot-top">
+    <div class="foot-brand">
+      <div class="logo">CinePlein<span style="color:#fff">Air</span></div>
+      <p>Your world of movies and TV shows,Golden Globe award.</p>
+    </div>
+    <div class="foot-col">
+      <h5>Browse</h5>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">TV shows</a></li>
+        <li><a href="#">Characters</a></li>
+        <li><a href="#">Ctegory</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h5>Support</h5>
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Local</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h5>Event</h5>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of vote</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <p class="foot-copy">© 2024 CinemaFes. All rights reserved.</p>
+    <div class="socials">
+      <div class="soc" title="Twitch">T</div>
+      <div class="soc" title="Twitter">𝕏</div>
+      <div class="soc" title="Instagram">I</div>
+      <div class="soc" title="YouTube">Y</div>
+      <div class="soc" title="TikTok">T</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
