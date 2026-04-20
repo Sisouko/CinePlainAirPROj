@@ -1,12 +1,12 @@
 # CinePlainAirPROj
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-//*CinemaFes – Streaming Platform UI//*********************
+//*CinemaFes:)*******:(Streaming Platform UI//*********************
 *************************************************************************************************************
 A modern, cinematic streaming platform landing page inspired by services like Netflix and Prime Video.
 Built using HTML, CSS, and JavaScript, this project focuses on delivering a premium UI/UX experience with rich visuals, smooth layout, and engaging sections.
 
-🚀 Live Concept 
+🚀 Live Concept
 
 CinemaFes is a fictional streaming platform that allows users to explore:
 
@@ -80,4 +80,4 @@ If you like this project:
 
 ⭐ Star the repository
 🍴 Fork it
-🧠 Use it as inspiration for your own UI projects
+🧠 Use it as inspiration for your own UI projects******
