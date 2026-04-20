@@ -26,7 +26,6 @@ body{
 img{display:block}
 a{text-decoration:none;color:inherit}
 
-/* ─── NAVBAR ─── */
 .navbar{
   position:fixed;top:0;left:0;right:0;z-index:999;
   display:flex;align-items:center;justify-content:space-between;
@@ -69,7 +68,6 @@ a{text-decoration:none;color:inherit}
 }
 .nav-avatar img{width:100%;height:100%;object-fit:cover}
 
-/* ─── HERO ─── */
 .hero{
   position:relative;width:100%;
   height:520px;overflow:hidden;
@@ -160,7 +158,6 @@ a{text-decoration:none;color:inherit}
 .hbadge.fantasy{background:rgba(123,47,247,.2);color:#a56fff;border:1px solid rgba(123,47,247,.3)}
 .hbadge.drama{background:rgba(232,24,109,.15);color:var(--pink);border:1px solid rgba(232,24,109,.3)}
 
-/* ─── SECTION BASE ─── */
 .sec{padding:36px 48px}
 .sec-head{
   display:flex;align-items:center;justify-content:space-between;
@@ -182,7 +179,6 @@ a{text-decoration:none;color:inherit}
 }
 .sec-link:hover{text-decoration:underline}
 
-/* ─── GENRE PILLS ─── */
 .genre-pills{
   display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;
 }
@@ -200,7 +196,6 @@ a{text-decoration:none;color:inherit}
 .gpill.cyan{background:rgba(0,212,255,.15);color:var(--cyan);border:1px solid rgba(0,212,255,.3)}
 .gpill.ghost{background:rgba(255,255,255,.06);color:#8a96b8;border:1px solid var(--border)}
 
-/* ─── SCROLL ROW ─── */
 .hscroll{
   display:flex;gap:14px;
   overflow-x:auto;padding-bottom:8px;
@@ -209,7 +204,6 @@ a{text-decoration:none;color:inherit}
 .hscroll::-webkit-scrollbar{height:3px}
 .hscroll::-webkit-scrollbar-thumb{background:var(--pink);border-radius:4px}
 
-/* ─── TREND CARDS ─── */
 .t-card{
   flex:0 0 130px;border-radius:var(--r);
   overflow:hidden;cursor:pointer;position:relative;
@@ -239,7 +233,6 @@ a{text-decoration:none;color:inherit}
 .t-card-tag.new{background:var(--blue);color:#000}
 .t-card-tag.hot{background:var(--pink);color:#fff}
 
-/* ─── GOLDEN GLOBE ─── */
 .gg-banner{
   margin:0 48px 8px;
   border-radius:14px;overflow:hidden;
@@ -293,7 +286,6 @@ a{text-decoration:none;color:inherit}
   border:2px solid rgba(245,197,24,.5);object-fit:cover;
 }
 
-/* ─── SERIES CARDS ─── */
 .s-card{
   flex:0 0 150px;border-radius:var(--r);
   overflow:hidden;cursor:pointer;position:relative;
@@ -320,74 +312,6 @@ a{text-decoration:none;color:inherit}
   padding:2px 7px;border-radius:4px;
   background:var(--pink);color:#fff;
 }
-
-/* ─── MAP SECTION ─── */
-.map-sec{padding:36px 48px}
-.map-box{
-  border-radius:16px;overflow:hidden;
-  height:300px;position:relative;
-  background:#0c0f22;
-  border:1px solid var(--border);
-}
-/* Subtle grid */
-.map-box::before{
-  content:'';position:absolute;inset:0;
-  background-image:
-    linear-gradient(rgba(30,35,64,.6) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(30,35,64,.6) 1px,transparent 1px);
-  background-size:40px 40px;
-}
-.map-glow{
-  position:absolute;inset:0;
-  background:
-    radial-gradient(ellipse at 25% 55%,rgba(26,159,255,.07) 0%,transparent 55%),
-    radial-gradient(ellipse at 75% 45%,rgba(232,24,109,.06) 0%,transparent 55%);
-}
-/* SVG roads drawn inline */
-.map-svg{position:absolute;inset:0;width:100%;height:100%}
-
-.mp{
-  position:absolute;
-  display:flex;flex-direction:column;align-items:center;
-  cursor:pointer;transform:translateX(-50%);
-}
-.mp-bubble{
-  background:rgba(13,16,36,.95);
-  border-radius:8px;padding:5px 11px;
-  font-size:.65rem;font-weight:700;
-  white-space:nowrap;border:1px solid rgba(232,24,109,.4);
-  color:#fff;margin-bottom:4px;
-  box-shadow:0 4px 14px rgba(0,0,0,.5);
-  opacity:0;transform:translateY(4px);transition:all .2s;
-}
-.mp:hover .mp-bubble{opacity:1;transform:translateY(0)}
-.mp-stem{width:1.5px;height:16px;background:var(--pink);opacity:.5}
-.mp-dot{
-  width:10px;height:10px;border-radius:50%;
-  background:var(--pink);
-  box-shadow:0 0 0 3px rgba(232,24,109,.25),0 0 10px rgba(232,24,109,.5);
-  animation:mpulse 2.2s infinite;
-}
-.mp-dot.b{
-  background:var(--blue);
-  box-shadow:0 0 0 3px rgba(26,159,255,.25),0 0 10px rgba(26,159,255,.5);
-}
-@keyframes mpulse{
-  0%,100%{box-shadow:0 0 0 3px rgba(232,24,109,.25)}
-  50%{box-shadow:0 0 0 7px rgba(232,24,109,.05)}
-}
-.map-labels{
-  position:absolute;bottom:14px;left:14px;
-  display:flex;gap:8px;
-}
-.map-lbl{
-  background:rgba(13,16,36,.9);border-radius:6px;
-  padding:5px 12px;font-size:.65rem;font-weight:700;
-  border:1px solid var(--border);color:#cdd6f4;
-  display:flex;align-items:center;gap:5px;
-}
-
-/* ─── CHARACTERS ─── */
 .ch-card{
   flex:0 0 96px;display:flex;flex-direction:column;align-items:center;
   gap:7px;cursor:pointer;
@@ -407,7 +331,6 @@ a{text-decoration:none;color:inherit}
 .ch-name{font-size:.7rem;font-weight:700;color:#cdd6f4;text-align:center}
 .ch-role{font-size:.62rem;color:var(--muted);text-align:center;margin-top:-5px}
 
-/* ─── FAMILY SECTION ─── */
 .fam-sec{
   margin:8px 48px 44px;
   border-radius:18px;overflow:hidden;
@@ -458,7 +381,6 @@ a{text-decoration:none;color:inherit}
 .fam-poster img{width:110px;height:150px;object-fit:cover;display:block}
 .fam-poster:nth-child(2){margin-bottom:18px}
 
-/* ─── FAQ ─── */
 .faq-sec{
   padding:44px 48px 50px;
   max-width:800px;margin:0 auto;
@@ -500,7 +422,6 @@ a{text-decoration:none;color:inherit}
 }
 .fi.open .fi-a{max-height:160px;padding:0 20px 18px}
 
-/* ─── FOOTER ─── */
 footer{
   background:#070918;
   border-top:1px solid var(--border);
@@ -538,7 +459,6 @@ footer{
 }
 .soc:hover{background:var(--pink);border-color:var(--pink);color:#fff;transform:translateY(-2px)}
 
-/* ─── RESPONSIVE ─── */
 @media(max-width:900px){
   .navbar{padding:0 20px}
   .nav-links{display:none}
