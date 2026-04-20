@@ -1,7 +1,4 @@
-/* ═══════════════════════════════════════════════════
-   CinemaFes — Lgg.js
-   TMDB API  |  List ID: 8646561
-   ═══════════════════════════════════════════════════ */
+
 
 const API_KEY  = "41fb928cc56c7a35b85e617ea481898c";
 const LIST_ID  = "8646561";
@@ -9,7 +6,6 @@ const BASE     = "https://api.themoviedb.org/3";
 const IMG_W500 = "https://image.tmdb.org/t/p/w500";
 const IMG_W185 = "https://image.tmdb.org/t/p/w185";
 
-/* ── TMDB page URL builder ───────────────────── */
 const tmdbUrl = (id, mediaType) =>
   `https://www.themoviedb.org/${mediaType === "tv" ? "tv" : "movie"}/${id}`;
 
